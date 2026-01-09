@@ -17,11 +17,7 @@ export default defineConfig(({ mode }) => {
       resolve: {
         alias: {
           '@': path.resolve(__dirname, '.'),
-        },
-      
-    preview: {
-      allowedHosts: ['marencore.onrender.com']
-    }
+        }
       }
     };
 });
