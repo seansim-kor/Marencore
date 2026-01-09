@@ -48,7 +48,7 @@ export const WhyUs: React.FC = () => {
                 <li className="flex gap-4">
                    <div className="min-w-[6px] h-[6px] rounded-full bg-red-400 mt-2"></div>
                    <div>
-                      <h4 className="font-bold text-gray-800">High D.O.A. (>10%)</h4>
+                      <h4 className="font-bold text-gray-800">High D.O.A. (&gt;10%)</h4>
                       <p className="text-sm text-gray-500 mt-1">Long-haul stress without stabilization leads to significant dead-on-arrival losses.</p>
                    </div>
                 </li>
