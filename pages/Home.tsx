@@ -6,7 +6,7 @@ import { WhyUs } from '../components/WhyUs';
 import { Products } from '../components/Products';
 import { Logistics } from '../components/Logistics';
 import { Sourcing } from '../components/Sourcing';
-import { LeadGenForm } from '../components/LeadGenForm';
+import { ContactSection } from '../components/LeadGenForm';
 
 export const Home: React.FC = () => {
   const { hash } = useLocation();
@@ -33,7 +33,7 @@ export const Home: React.FC = () => {
       <Products />
       <Logistics />
       <Sourcing />
-      <LeadGenForm />
+      <ContactSection />
     </>
   );
 };
