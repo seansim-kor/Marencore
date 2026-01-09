@@ -20,8 +20,6 @@ jobs:
       
       - name: Revert commit e6b2332
         run: |
-          git revert e6b2332 --no-edit
+          git revert e6b2332 --allow-empty -m 1 -n && git commit -m "Restore deleted files" && git push origin main || true
       
-      - name: Push changes
-        run: |
-          git push origin main
+      
