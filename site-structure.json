@@ -1,0 +1,29 @@
+{
+  "sections": [
+    { "id": "hero", "title": "Hero Section" },
+    { "id": "trust-bar", "title": "Trust Indicators" },
+    { "id": "why-us", "title": "Why Marencore" },
+    { "id": "product-lineup", "title": "Product Lineup" },
+    { "id": "logistics", "title": "Logistics Process" },
+    { "id": "sourcing", "title": "Sourcing & Documentation" },
+    { "id": "lead-form", "title": "Request Catalogue & Pricing" },
+    { "id": "footer", "title": "Footer" }
+  ],
+  "ctas": [
+    { "label": "Get a Quote", "location": "Hero (Primary)", "action": "Scroll to Form" },
+    { "label": "Chat via WhatsApp", "location": "Hero (Secondary)", "action": "Open WhatsApp" },
+    { "label": "Request Live Quote", "location": "Product Card (Live)", "action": "Scroll to Form" },
+    { "label": "Request Frozen Pricing", "location": "Product Card (Frozen)", "action": "Scroll to Form" },
+    { "label": "Request Catalogue & Pricing", "location": "Form Submit", "action": "Submit Form" },
+    { "label": "Chat via WhatsApp", "location": "Floating Bottom Right", "action": "Open WhatsApp" }
+  ],
+  "formFields": [
+    { "name": "name", "type": "text", "required": true },
+    { "name": "company", "type": "text", "required": true },
+    { "name": "businessType", "type": "select", "required": true, "options": ["Distributor", "Hotel", "Restaurant", "Retail"] },
+    { "name": "productInterest", "type": "select", "required": true, "options": ["Live", "Frozen", "Both"] },
+    { "name": "volume", "type": "text", "required": true },
+    { "name": "email", "type": "email", "required": true },
+    { "name": "whatsapp", "type": "tel", "required": true }
+  ]
+}
