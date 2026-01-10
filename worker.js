@@ -1,36 +1,25 @@
 /**
  * Marencore Worker
- * Serves Vite-built React SPA with proper asset handling and SPA routing
+ * Serves Vite-built React SPA with SPA routing support
+ * Static assets are served automatically by Cloudflare through wrangler.toml configuration
  */
 
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    
+    // Get the pathname
     const pathname = url.pathname;
-
-    try {
-      // Try to serve as a static asset first
-      const response = await env.ASSETS.fetch(request);
-      
-      // If the asset exists (status 200), return it
-      if (response.status === 200) {
-        return response;
-      }
-    } catch (error) {
-      // Continue if ASSETS fails
+    
+    // Check if the request is for a file with an extension
+    // If it has a file extension, Cloudflare's static asset handler will serve it
+    // We only need to handle non-file requests (routes) here
+    if (!pathname.includes('.') && pathname !== '/') {
+      // For SPA routing, serve index.html for non-file requests
+      return fetch(new URL('/index.html', url).toString());
     }
-
-    // For non-existent files, check if it's a request for a route (not a file)
-    // If it doesn't have a file extension, serve index.html for SPA routing
-    if (!pathname.includes('.')) {
-      try {
-        return await env.ASSETS.fetch(new Request(new URL('/index.html', url).toString(), request));
-      } catch (error) {
-        // If index.html doesn't exist, return 404
-      }
-    }
-
-    // Return 404 for missing files
-    return new Response('Not Found', { status: 404 });
+    
+    // For root path and static files, let the default handler take over
+    return fetch(request);
   }
 };
