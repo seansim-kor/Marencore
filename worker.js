@@ -1,25 +1,16 @@
 /**
  * Marencore Worker
- * Serves Vite-built React SPA with SPA routing support
- * Static assets are served automatically by Cloudflare through wrangler.toml configuration
+ * With fallthrough=true in wrangler.toml, static assets are served automatically.
+ * This worker simply passes through all requests to the static asset handler.
  */
 
 export default {
-  async fetch(request, env, ctx) {
-    const url = new URL(request.url);
+  async fetch(request, env) {
+    // Cloudflare's static asset handler will serve the files automatically
+    // due to fallthrough: true in wrangler.toml configuration
+    // So we don't need to handle anything here - just let it fall through
     
-    // Get the pathname
-    const pathname = url.pathname;
-    
-    // Check if the request is for a file with an extension
-    // If it has a file extension, Cloudflare's static asset handler will serve it
-    // We only need to handle non-file requests (routes) here
-    if (!pathname.includes('.') && pathname !== '/') {
-      // For SPA routing, serve index.html for non-file requests
-      return fetch(new URL('/index.html', url).toString());
-    }
-    
-    // For root path and static files, let the default handler take over
-    return fetch(request);
+    // Return undefined to allow fallthrough to static assets
+    return undefined;
   }
 };
