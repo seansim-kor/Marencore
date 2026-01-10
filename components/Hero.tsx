@@ -35,7 +35,7 @@ export const Hero: React.FC = () => {
              Russian King Crab via Korea
           </div>
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 leading-tight tracking-tight drop-shadow-2xl opacity-0 animate-fade-in-up delay-100">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-8 leading-tight tracking-tight drop-shadow-2xl opacity-0 animate-fade-in-up delay-100">
             The Premium Gateway <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-100 via-white to-cyan-100 italic">
               To South East Asia's Best Tables
