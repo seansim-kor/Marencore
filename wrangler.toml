@@ -11,5 +11,4 @@ cwd = "."
 
 [[build.upload.rules]]
 type = "CompiledContentType"
-globs = ["dist/**/*"]
-fallthrough = true
+globs = ["dist/**/*", "index.html"]fallthrough = true
