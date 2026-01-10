@@ -1,11 +1,15 @@
 name = "marencore"
-main = "dist/worker.js"
+main = "worker.js"
 compatibility_date = "2026-01-10"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
 
 [build]
 command = "npm run build"
 cwd = "."
 
-[build.upload]
-format = "modules"
-main = "./dist/worker.js"
+[[build.upload.rules]]
+type = "CompiledContentType"
+globs = ["dist/**/*"]
+fallthrough = true
