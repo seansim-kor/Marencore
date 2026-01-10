@@ -68,8 +68,7 @@ export const Logistics: React.FC = () => {
                 <Box size={48} className="text-accent" />
             </div>
             <div className="text-left">
-                <h4 className="text-xl font-bold text-white mb-2">Live Export Packaging System (Bulk >&gt;100kg)</h4>
-                <p className="text-cyan-100 text-sm leading-relaxed">
+    <h4 className="text-xl font-bold text-white mb-2">Live Export Packaging System (Bulk {">"}{">"} 100kg)</h4>                <p className="text-cyan-100 text-sm leading-relaxed">
                    We utilize Styrofoam lids, Double Polyethylene Liners (Sealed with Oxygen), Wet Sponges, and Absorbent Pads with wrapped Gel Ice Packs.
                    Crabs are packed "dormant & leak-proof" to minimize stress during the flight.
                 </p>
