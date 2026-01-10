@@ -1,4 +1,5 @@
-import React from 'react';
+70
+  import React from 'react';
 import { Ship, MapPin, ArrowRight, Box } from 'lucide-react';
 
 export const Logistics: React.FC = () => {
