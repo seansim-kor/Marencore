@@ -1,16 +1,20 @@
 /**
  * Marencore Worker
- * With fallthrough=true in wrangler.toml, static assets are served automatically.
- * This worker simply passes through all requests to the static asset handler.
+ * Serves index.html for all requests to support SPA routing
  */
 
 export default {
   async fetch(request, env) {
-    // Cloudflare's static asset handler will serve the files automatically
-    // due to fallthrough: true in wrangler.toml configuration
-    // So we don't need to handle anything here - just let it fall through
-    
-    // Return undefined to allow fallthrough to static assets
-    return undefined;
+    const url = new URL(request.url);
+    const pathname = url.pathname;
+
+    // Check if it's a request for a static file (has file extension)
+    if (pathname.includes('.')) {
+      // Let Cloudflare serve static assets automatically
+      return undefined;
+    }
+
+    // For all other requests (SPA routes), serve index.html
+    return fetch(new URL('/index.html', url).toString());
   }
 };
