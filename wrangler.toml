@@ -1,0 +1,11 @@
+name = "marencore"
+main = "dist/worker.js"
+compatibility_date = "2026-01-10"
+
+[build]
+command = "npm run build"
+cwd = "."
+
+[build.upload]
+format = "modules"
+main = "./dist/worker.js"
