@@ -8,13 +8,17 @@ export default {
     const url = new URL(request.url);
     const pathname = url.pathname;
 
-    // Check if it's a request for a static file (has file extension)
+    // For requests with file extensions, let Cloudflare handle them
     if (pathname.includes('.')) {
-      // Let Cloudflare serve static assets automatically
       return undefined;
     }
 
-    // For all other requests (SPA routes), serve index.html
-    return fetch(new URL('/index.html', url).toString());
+    // For all other requests (SPA routes), fetch index.html
+    try {
+      const indexUrl = new URL('/index.html', url).toString();
+      return await fetch(indexUrl, request);
+    } catch (error) {
+      return new Response('Not Found', { status: 404 });
+    }
   }
 };
