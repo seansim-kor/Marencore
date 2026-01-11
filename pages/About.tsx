@@ -18,7 +18,7 @@ export const About: React.FC = () => {
       <section className="relative h-screen min-h-[700px] w-full flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/about-hero.png"
+            src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/about-hero.png"
             alt="Calm deep sea horizon"
             className="w-full h-full object-cover animate-zoom-in"
           />
@@ -54,7 +54,7 @@ export const About: React.FC = () => {
             <div className="mb-12 relative w-full max-w-4xl reveal-scale">
                {/* Crab Image Layer */}
                <img 
-                 src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/crab-isolated.png" 
+                 src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/crab-isolated.png" 
                  alt="Red King Crab" 
                  className="w-full h-auto object-contain max-h-[400px] drop-shadow-2xl hover:scale-105 transition-transform duration-700 animate-float"
                />
@@ -100,7 +100,7 @@ export const About: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/horeca-dining.png"
+            src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/horeca-dining.png"
             alt="Luxury Restaurant Interior"
             className="w-full h-full object-cover"
           />
@@ -219,15 +219,6 @@ export const About: React.FC = () => {
                  <ShieldCheck className="text-blue-500" size={24} />
                  <span className="text-sm font-bold text-white">Vet Inspected</span>
               </div>
-           </div>
-
-           <div className="mt-16 text-center reveal delay-500">
-              <button 
-                onClick={scrollToForm}
-                className="bg-white text-primary hover:bg-gray-100 px-8 py-3 rounded-md font-bold flex items-center gap-2 mx-auto transition-colors shadow-lg hover:shadow-xl hover:-translate-y-1 transform"
-              >
-                Get Wholesale Price List <Download size={18} />
-              </button>
            </div>
          </div>
       </section>

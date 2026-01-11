@@ -54,7 +54,7 @@ export const Products: React.FC = () => {
             <div className="relative h-[500px] md:h-auto overflow-hidden group">
                 <img
                   key={activeTab} // Key forces re-render for animation on tab switch
-                  src={activeTab === 'live' ? "https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/product-live.png" : "https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/product-frozen.jpg"}
+                  src={activeTab === 'live' ? "https://raw.githubusercontent.com/seansim-kor/public/main/marencore/product-live.png" : "https://raw.githubusercontent.com/seansim-kor/public/main/marencore/product-frozen.jpg"}
                   alt={activeTab}
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 animate-fade-in-up"
                 />

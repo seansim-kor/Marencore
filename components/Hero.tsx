@@ -13,10 +13,11 @@ export const Hero: React.FC = () => {
           playsInline
           className="absolute inset-0 w-full h-full object-cover scale-105"
         >
-          <source src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/hero-video.mp4" type="video/mp4" />
+          {/* Updated to raw link for direct streaming */}
+          <source src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/hero-video.mp4" type="video/mp4" />
           {/* Fallback image if video fails */}
           <img 
-            src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/hero-poster.jpg" 
+            src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/hero-poster.jpg" 
             alt="Rough sea fishing vessel" 
             className="w-full h-full object-cover"
           />

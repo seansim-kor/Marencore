@@ -55,7 +55,7 @@ export const Logistics: React.FC = () => {
             <div className="lg:w-1/2 relative opacity-0 animate-slide-in-right delay-200">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
                 <img 
-                  src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/logistics-hero.jpg" 
+                  src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/logistics-hero.jpg" 
                   alt="Cargo Plane Loading" 
                   className="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
                 />
@@ -191,7 +191,7 @@ export const Logistics: React.FC = () => {
             {/* Stage 1 */}
             <div className="reveal-left delay-0 bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:-translate-y-2 transition-transform duration-300 group">
               <div className="h-56 relative overflow-hidden">
-                 <img src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/process-1.jpg" alt="Russian Vessel" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                 <img src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/process-1.jpg" alt="Russian Vessel" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                  <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/80 to-transparent">
                    <div className="flex items-center gap-2 text-white/90 text-sm font-bold">
                      <Anchor size={16} className="text-blue-400" /> Russian Far East
@@ -210,7 +210,7 @@ export const Logistics: React.FC = () => {
             {/* Stage 2 */}
             <div className="reveal-scale delay-200 bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:-translate-y-2 transition-transform duration-300 group">
                <div className="h-56 relative overflow-hidden">
-                 <img src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/process-2.jpg" alt="Incheon Airport" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                 <img src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/process-2.jpg" alt="Incheon Airport" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                  <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/80 to-transparent">
                    <div className="flex items-center gap-2 text-white/90 text-sm font-bold">
                      <Plane size={16} className="text-blue-400" /> Incheon International Airport

@@ -7,7 +7,7 @@ export const WhyUs: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/crab-market.png" 
+          src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/crab-market.png" 
           alt="Korean Crab Market" 
           className="w-full h-full object-cover animate-pulse-slow"
         />
@@ -119,7 +119,7 @@ export const WhyUs: React.FC = () => {
               {/* Step 1 */}
               <div className="reveal-scale delay-100 text-center relative z-10 group">
                  <div className="mb-6 relative h-48 rounded-2xl overflow-hidden shadow-md">
-                    <img src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/process-1.jpg" alt="Arrival & Stabilization" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <img src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/process-1.jpg" alt="Arrival & Stabilization" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                     <div className="absolute top-4 left-4 w-10 h-10 bg-white rounded-full flex items-center justify-center font-bold text-primary text-xl shadow-lg">1</div>
                  </div>
                  <h4 className="text-xl font-bold text-gray-900 mb-2">Arrival & Stabilization</h4>
@@ -129,7 +129,7 @@ export const WhyUs: React.FC = () => {
               {/* Step 2 */}
               <div className="reveal-scale delay-300 text-center relative z-10 group">
                  <div className="mb-6 relative h-48 rounded-2xl overflow-hidden shadow-md">
-                    <img src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/process-2.jpg" alt="Expert Re-grading" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <img src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/process-2.jpg" alt="Expert Re-grading" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                     <div className="absolute top-4 left-4 w-10 h-10 bg-white rounded-full flex items-center justify-center font-bold text-primary text-xl shadow-lg">2</div>
                  </div>
                  <h4 className="text-xl font-bold text-gray-900 mb-2">Expert Re-grading</h4>
@@ -139,7 +139,7 @@ export const WhyUs: React.FC = () => {
               {/* Step 3 */}
               <div className="reveal-scale delay-500 text-center relative z-10 group">
                  <div className="mb-6 relative h-48 rounded-2xl overflow-hidden shadow-md">
-                    <img src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/process-3.jpg" alt="Direct Air Freight" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                    <img src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/process-3.jpg" alt="Direct Air Freight" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                     <div className="absolute top-4 left-4 w-10 h-10 bg-white rounded-full flex items-center justify-center font-bold text-primary text-xl shadow-lg">3</div>
                  </div>
                  <h4 className="text-xl font-bold text-gray-900 mb-2">Direct Air-Freight</h4>

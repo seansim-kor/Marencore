@@ -11,12 +11,11 @@ const directors: Director[] = [
   {
     region: 'Malaysia Office',
     name: 'Mr. Sean Sim',
-    phone: '+60 17 201 8149',
-    email: 'seansim.kor@gmail.com'
+    phone: '+60 17 201 8149'
   },
   {
     region: 'South Korea Office',
-    name: 'HB Kwon',
+    name: 'Mr. HB Kwon',
     phone: '+82 10 4183 1753'
   }
 ];
