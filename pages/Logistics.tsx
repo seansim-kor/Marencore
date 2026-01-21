@@ -229,7 +229,7 @@ export const Logistics: React.FC = () => {
             {/* Stage 3 */}
             <div className="reveal-right delay-400 bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:-translate-y-2 transition-transform duration-300 group">
                <div className="h-56 relative overflow-hidden">
-                 <img src="https://raw.githubusercontent.com/seansim-kor/Marencore/main/public/process-3.jpg" alt="KL Airport" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                 <img src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/process-3.jpg" alt="KL Airport" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                  <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/80 to-transparent">
                    <div className="flex items-center gap-2 text-white/90 text-sm font-bold">
                      <Truck size={16} className="text-blue-400" /> Major SEA Airports
