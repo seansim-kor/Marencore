@@ -65,7 +65,7 @@ export const Products: React.FC = () => {
                     </span>
                     <h3 className="text-4xl font-serif mb-2">{activeTab === 'live' ? 'Live Red & Blue King Crab' : 'Boiled/Sectioned Frozen'}</h3>
                     <p className="text-white/80 font-light">
-                        {activeTab === 'live' ? 'Paralithodes camtschaticus / platypus' : 'Direct from Russian Fisheries'}
+                        {activeTab === 'live' ? 'Paralithodes camtschaticus / platypus' : 'Direct from Alaskan Fisheries'}
                     </p>
                 </div>
             </div>
@@ -78,7 +78,7 @@ export const Products: React.FC = () => {
                     </h3>
                     <p className="text-gray-600 font-light leading-relaxed">
                         {activeTab === 'live' 
-                            ? 'Sourced from Okhotsk/Bering Seas. We combine Red King Crab (Sept-Feb) and Blue King Crab (Feb-Sept) seasons to ensure 365-day uninterrupted supply for your menu.' 
+                            ? 'Sourced from the Bering Sea. We combine Red King Crab (Sept-Feb) and Blue King Crab (Feb-Sept) seasons to ensure 365-day uninterrupted supply for your menu.' 
                             : 'Process-perfected frozen sections. Cost-effective with extended shelf life, perfect for high-volume buffets and retail packs.'}
                     </p>
                 </div>

@@ -8,9 +8,9 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-white text-xl font-heading font-bold mb-6">Marencore Pte. Ltd.</h3>
+            <h3 className="text-white text-xl font-heading font-bold mb-6">Marencore Ocean Pte. Ltd.</h3>
             <p className="mb-6 text-sm leading-relaxed">
-                Premium seafood trading partner connecting Russian seas to South East Asian tables via Korea's advanced logistics hubs.
+                Premium seafood trading partner connecting Alaskan seas to South East Asian tables via Korea's advanced logistics hubs.
             </p>
             <div className="flex flex-col gap-2 mb-6">
                 <a href="https://www.marencore.com" className="text-accent hover:text-white transition-colors">www.marencore.com</a>
@@ -61,7 +61,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-700 pt-8 text-center text-sm">
-            &copy; {new Date().getFullYear()} Marencore Pte. Ltd. All rights reserved.
+            &copy; {new Date().getFullYear()} Marencore Ocean Pte. Ltd. All rights reserved.
         </div>
       </div>
     </footer>

@@ -31,10 +31,10 @@ export const About: React.FC = () => {
           </h1>
           <div className="w-24 h-1 bg-accent mx-auto mb-8 opacity-0 animate-fade-in-up delay-200"></div>
           <p className="text-lg md:text-xl text-white/90 leading-relaxed mb-8 font-light drop-shadow-md opacity-0 animate-fade-in-up delay-300">
-            Marencore is more than a name; it's a promise forged in the deep, untamed waters of the Okhotsk and Bering Seas. Our journey began with a profound respect for the ocean's bounty and an unwavering commitment to its preservation.
+            Marencore Ocean is more than a name; it's a promise forged in the deep, untamed waters of the Bering Sea. Our journey began with a profound respect for the ocean's bounty and an unwavering commitment to its preservation.
           </p>
           <p className="text-md md:text-lg text-white/80 leading-relaxed mb-12 font-light max-w-3xl mx-auto opacity-0 animate-fade-in-up delay-400">
-            "Marencore," a blend of "Mare" (Latin for "sea") and "Core" (signifying essence), embodies our dedication to the very heart of the ocean. We are rooted in the core principles of authenticity, sustainability, and the relentless pursuit of unparalleled quality, bringing the ocean's purest essence directly to you.
+            "Marencore Ocean," where "Marencore" is a blend of "Mare" (Latin for "sea") and "Core" (signifying essence), embodies our dedication to the very heart of the ocean. We are rooted in the core principles of authenticity, sustainability, and the relentless pursuit of unparalleled quality, bringing the ocean's purest essence directly to you.
           </p>
           
           <button 
@@ -46,7 +46,7 @@ export const About: React.FC = () => {
         </div>
       </section>
 
-      {/* SECTION 2: PROVENANCE - Alaskan vs Russian */}
+      {/* SECTION 2: PROVENANCE - Alaskan King Crab */}
       <section id="provenance" className="py-24 relative bg-[#0b0f19]">
         <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5 animate-pulse-slow"></div>
         <div className="container mx-auto px-6 relative z-10">
@@ -67,19 +67,19 @@ export const About: React.FC = () => {
 
             <div className="text-center max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-5xl font-serif font-bold text-white mb-8 reveal delay-100">
-                The Alaskan vs. Russian King Crab:<br/>
-                <span className="text-gray-400 italic">A Question of Provenance, Not Quality</span>
+                The Alaskan King Crab:<br/>
+                <span className="text-gray-400 italic">The Gold Standard of Seafood</span>
               </h2>
               
               <div className="grid md:grid-cols-2 gap-12 text-left mb-12">
                 <div className="space-y-4 reveal-left delay-200">
                   <p className="text-gray-400 leading-relaxed">
-                    For generations, the majestic Red King Crab has thrived in the cold, nutrient-rich waters shared by Alaska and Russia. The distinction is not in their inherent quality or species, but in their precise point of origin.
+                    For generations, the majestic Red King Crab has thrived in the cold, nutrient-rich waters of Alaska. Known for its sweet flavor and tender texture, it remains the most sought-after delicacy in the world.
                   </p>
                 </div>
                 <div className="space-y-4 reveal-right delay-200">
                    <p className="text-gray-400 leading-relaxed">
-                    Marencore sources from sustainable Russian fisheries, offering the exact same revered species (<i>Paralithodes camtschaticus</i>) with its firm, succulent meat and impressive size, but through an optimized, direct supply chain. This means you receive the highest quality, authentic product that meets the expectations of discerning palates, while benefiting from a sourcing strategy that respects both the ocean and your bottom line.
+                    Marencore Ocean sources from sustainable Alaskan fisheries, offering the revered species (<i>Paralithodes camtschaticus</i>) with its firm, succulent meat and impressive size. Our optimized direct supply chain ensures you receive the highest quality, authentic product that meets the expectations of discerning palates.
                   </p>
                 </div>
               </div>
@@ -88,7 +88,7 @@ export const About: React.FC = () => {
                 onClick={scrollToForm}
                 className="reveal-scale delay-300 bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-full font-medium transition-all shadow-[0_0_20px_rgba(255,69,0,0.3)] flex items-center gap-2 mx-auto hover:scale-105"
               >
-                Understand the Difference <ArrowRight size={18} />
+                Experience Excellence <ArrowRight size={18} />
               </button>
             </div>
           </div>
@@ -118,7 +118,7 @@ export const About: React.FC = () => {
             </h2>
 
             <p className="text-lg text-gray-300 mb-16 leading-relaxed reveal delay-200">
-              In the demanding world of hospitality, Marencore is your strategic partner. We understand that premium quality must be paired with consistent value. Our direct sourcing model is designed to enhance your culinary offerings and optimize your operational efficiency.
+              In the demanding world of hospitality, Marencore Ocean is your strategic partner. We understand that premium quality must be paired with consistent value. Our direct sourcing model is designed to enhance your culinary offerings and optimize your operational efficiency.
             </p>
 
             <div className="grid md:grid-cols-1 gap-8 text-left bg-white/5 p-8 md:p-12 rounded-2xl border border-white/10 backdrop-blur-sm reveal-scale delay-300">
@@ -175,7 +175,7 @@ export const About: React.FC = () => {
                Unbroken Cold Chain: Freshness Guaranteed
              </h2>
              <p className="text-gray-400 max-w-2xl mx-auto">
-               From the deep seas of Russia to your place in under 48 hours. We monitor temperature every second of the journey.
+               From the deep seas of Alaska to your place in under 48 hours. We monitor temperature every second of the journey.
              </p>
            </div>
 
@@ -185,7 +185,7 @@ export const About: React.FC = () => {
              <div className="hidden md:block absolute top-12 left-[10%] right-[10%] h-0.5 bg-gray-700 -z-10 border-t border-dashed border-gray-600"></div>
 
              {[
-                { icon: Ship, title: "1. The Catch", desc: "Live catch from the Okhotsk & Bering Seas. Immediate tanking.", sub: "RUSSIA" },
+                { icon: Ship, title: "1. The Catch", desc: "Live catch from the Bering Sea. Immediate tanking.", sub: "ALASKA" },
                 { icon: MapPin, title: "2. Quality Hub", desc: "Fishing vessels enter Donghae Port. Strict quality check & tanking.", sub: "DONGHAE, SOUTH KOREA" },
                 { icon: Truck, title: "3. Fresh Arrival", desc: "Direct logistics to South East Asia. Expedited clearance for premium freshness.", sub: "SOUTH EAST ASIA" },
                 { icon: Utensils, title: "4. Your Place", desc: "Delivered live to your location. 0% mortality guarantee.", sub: "DOORSTEP DELIVERY" }
@@ -226,9 +226,9 @@ export const About: React.FC = () => {
       {/* CTA Band */}
       <section className="py-16 bg-accent text-white text-center">
         <div className="container mx-auto px-6 reveal">
-          <h2 className="text-2xl md:text-3xl font-serif font-bold mb-4">Partner with Marencore Today</h2>
+          <h2 className="text-2xl md:text-3xl font-serif font-bold mb-4">Partner with Marencore Ocean Today</h2>
           <p className="text-white/90 mb-8 max-w-2xl mx-auto">
-            Experience the synergy of Russian sourcing and Korean logistics.
+            Experience the synergy of Alaskan sourcing and Korean logistics.
           </p>
           <Link 
             to="/#lead-form" 

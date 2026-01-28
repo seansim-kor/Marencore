@@ -33,7 +33,7 @@ export const Hero: React.FC = () => {
           
           <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-white/20 bg-white/10 backdrop-blur-md text-xs font-bold tracking-widest uppercase mb-8 opacity-0 animate-fade-in-down">
              <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-             Russian King Crab via Korea
+             Alaskan King Crab via Korea
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-8 leading-tight tracking-tight drop-shadow-2xl opacity-0 animate-fade-in-up delay-100">

@@ -1,5 +1,4 @@
-70
-  import React from 'react';
+import React from 'react';
 import { Ship, MapPin, ArrowRight, Box } from 'lucide-react';
 
 export const Logistics: React.FC = () => {
@@ -26,7 +25,7 @@ export const Logistics: React.FC = () => {
             <div className="w-20 h-20 bg-white/10 text-cyan-300 rounded-full flex items-center justify-center mb-6 shadow-inner backdrop-blur-sm group hover:bg-cyan-900/50 transition-colors">
               <Ship size={32} className="group-hover:scale-110 transition-transform" />
             </div>
-            <h3 className="font-serif font-bold text-xl text-white mb-2">Russia</h3>
+            <h3 className="font-serif font-bold text-xl text-white mb-2">Alaska</h3>
             <p className="text-cyan-100/70 text-sm font-light">Catch & Handling<br/>(On Vessel)</p>
           </div>
 

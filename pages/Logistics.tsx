@@ -32,7 +32,7 @@ export const Logistics: React.FC = () => {
               </h1>
               
               <p className="text-lg text-gray-600 leading-relaxed mb-10 max-w-xl opacity-0 animate-fade-in-up delay-200">
-                Experience unparalleled speed and freshness with our dedicated air freight network. We ensure live King Crab arrives swiftly from Russia, through premier Korean airport hubs like Incheon, directly to South East Asia.
+                Experience unparalleled speed and freshness with our dedicated air freight network. We ensure live King Crab arrives swiftly from Alaska, through premier Korean airport hubs like Incheon, directly to South East Asia.
               </p>
               
               <div className="flex flex-wrap gap-4 opacity-0 animate-fade-in-up delay-300">
@@ -68,7 +68,7 @@ export const Logistics: React.FC = () => {
                     <span className="text-xs font-bold uppercase tracking-widest text-blue-200">Direct Air Route</span>
                   </div>
                   <p className="font-serif text-xl font-medium">
-                    Russia (Catch) <span className="text-blue-300">→</span> Incheon (Hub) <span className="text-blue-300">→</span> South East Asia
+                    Alaska (Catch) <span className="text-blue-300">→</span> Incheon (Hub) <span className="text-blue-300">→</span> South East Asia
                   </p>
                   <p className="text-xs text-white/60 mt-2">Optimized for maximum freshness and survival rates.</p>
                 </div>
@@ -159,7 +159,7 @@ export const Logistics: React.FC = () => {
               { 
                 icon: Plane, 
                 title: "Direct Air Logistics", 
-                desc: "No middlemen. Direct air freight from Russian origin via Korean air hubs." 
+                desc: "No middlemen. Direct air freight from Alaskan origin via Korean air hubs." 
               }
             ].map((item, i) => (
               <div key={i} className={`reveal delay-${i * 100} bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition-all group hover:-translate-y-2`}>
@@ -183,7 +183,7 @@ export const Logistics: React.FC = () => {
               Live King Crab Air Journey Stages
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our streamlined air logistics ensure the quickest and most efficient transit for live King Crab from Russia to your market.
+              Our streamlined air logistics ensure the quickest and most efficient transit for live King Crab from Alaska to your market.
             </p>
           </div>
 
@@ -191,10 +191,10 @@ export const Logistics: React.FC = () => {
             {/* Stage 1 */}
             <div className="reveal-left delay-0 bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:-translate-y-2 transition-transform duration-300 group">
               <div className="h-56 relative overflow-hidden">
-                 <img src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/process-1.jpg" alt="Russian Vessel" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                 <img src="https://raw.githubusercontent.com/seansim-kor/public/main/marencore/process-1.jpg" alt="Alaskan Vessel" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                  <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/80 to-transparent">
                    <div className="flex items-center gap-2 text-white/90 text-sm font-bold">
-                     <Anchor size={16} className="text-blue-400" /> Russian Far East
+                     <Anchor size={16} className="text-blue-400" /> Alaskan Coast
                    </div>
                  </div>
               </div>
@@ -253,7 +253,7 @@ export const Logistics: React.FC = () => {
         <div className="container mx-auto px-6 max-w-4xl reveal">
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Ready to Streamline Your Seafood Supply?</h2>
           <p className="text-blue-100 mb-10 text-lg">
-            Partner with Marencore for a supply chain that prioritizes freshness, speed, and compliance.
+            Partner with Marencore Ocean for a supply chain that prioritizes freshness, speed, and compliance.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <button 

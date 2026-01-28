@@ -52,7 +52,7 @@ export const Header: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className={`text-2xl font-serif font-bold tracking-tight transition-colors ${isScrolled || !isHome ? 'text-primary' : 'text-white'}`}>
-          Marencore<span className="text-accent">.</span>
+          Marencore Ocean<span className="text-accent">.</span>
         </Link>
 
         {/* Desktop Nav */}

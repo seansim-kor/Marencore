@@ -21,7 +21,7 @@ export const WhyUs: React.FC = () => {
             Why you should import from Korea!
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto font-light">
-            Sourcing directly from Russia sounds cheaper, but the hidden costs of mortality and quality inconsistency can destroy your margins.
+            Sourcing directly from Alaska sounds ideal, but the long-haul risks of mortality and quality inconsistency can destroy your margins.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export const WhyUs: React.FC = () => {
                 </div>
                 <div>
                     <h3 className="text-2xl font-serif font-bold text-white">The Quality Firewall</h3>
-                    <p className="text-cyan-200 text-xs uppercase tracking-widest font-bold">Marencore Korea Hub Strategy</p>
+                    <p className="text-cyan-200 text-xs uppercase tracking-widest font-bold">Marencore Ocean Korea Hub Strategy</p>
                 </div>
              </div>
              
@@ -123,7 +123,7 @@ export const WhyUs: React.FC = () => {
                     <div className="absolute top-4 left-4 w-10 h-10 bg-white rounded-full flex items-center justify-center font-bold text-primary text-xl shadow-lg">1</div>
                  </div>
                  <h4 className="text-xl font-bold text-gray-900 mb-2">Arrival & Stabilization</h4>
-                 <p className="text-sm text-gray-600">Russian vessels dock at Donghae. Stressed crabs recover vitality in specialized tanks.</p>
+                 <p className="text-sm text-gray-600">Alaskan vessels dock at Donghae. Stressed crabs recover vitality in specialized tanks.</p>
               </div>
 
               {/* Step 2 */}
