@@ -10,11 +10,11 @@ export const FloatingWhatsApp: React.FC = () => {
   return (
     <button
       onClick={handleChat}
-      className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-[#25D366] hover:bg-[#128C7E] text-white py-3 px-5 rounded-full shadow-lg transition-all transform hover:scale-105 font-heading font-semibold"
+      className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-[#25D366] hover:bg-[#128C7E] text-white p-3 md:py-3 md:px-5 rounded-full shadow-lg transition-all transform hover:scale-105 font-heading font-semibold"
       aria-label="Chat via WhatsApp"
     >
       <MessageCircle size={24} />
-      <span>Chat via WhatsApp</span>
+      <span className="hidden md:inline">Chat via WhatsApp</span>
     </button>
   );
 };
