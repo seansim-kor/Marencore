@@ -22,9 +22,9 @@ export const Sourcing: React.FC = () => {
                <div className="flex items-start gap-4">
                 <ShieldCheck className="text-accent flex-shrink-0 group-hover:scale-110 transition-transform" size={32} />
                 <div>
-                  <h4 className="font-bold text-xl mb-2">Industry-Best D.O.A. Guarantee</h4>
+                  <h4 className="font-bold text-xl mb-2">Expert D.O.A. Risk Management</h4>
                   <p className="text-blue-100 font-light leading-relaxed">
-                     If Dead-On-Arrival (D.O.A.) exceeds the allowed standard (7%), we provide <strong>100% Credit Compensation</strong> for the excess. We manage the unpredictable loss risks for you.
+                     We maintain a 10% D.O.A. benchmark to manage logistics risks for our partners. Standards vary by species (Red vs. Blue/Brown) and seasonal factors. Final terms are pre-aligned per shipment to reflect current biological conditions and ensure operational stability.
                   </p>
                 </div>
                </div>

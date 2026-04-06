@@ -30,8 +30,8 @@ export const TrustBar: React.FC = () => {
           />
           <TrustItem
             icon={ShieldCheck}
-            title="Premium Guarantee"
-            desc="100% Credit compensation if DOA exceeds 7%."
+            title="Risk Management"
+            desc="10% D.O.A. benchmark with pre-aligned terms per shipment."
             delay="delay-200"
           />
           <TrustItem
