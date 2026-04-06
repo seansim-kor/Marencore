@@ -61,7 +61,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-700 pt-8 text-center text-sm">
-            &copy; {new Date().getFullYear()} Marencore Ocean Pte. Ltd. All rights reserved.
+            &copy; {new Date().getFullYear()} Marencore Pte. Ltd. All rights reserved.
         </div>
       </div>
     </footer>
