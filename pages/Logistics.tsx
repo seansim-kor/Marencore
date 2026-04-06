@@ -35,20 +35,7 @@ export const Logistics: React.FC = () => {
                 Experience unparalleled speed and freshness with our dedicated air freight network. We ensure live King Crab arrives swiftly from Alaska, through premier Korean airport hubs like Incheon, directly to South East Asia.
               </p>
               
-              <div className="flex flex-wrap gap-4 opacity-0 animate-fade-in-up delay-300">
-                <button 
-                  onClick={() => document.getElementById('journey-stages')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="px-8 py-4 bg-primary text-white font-bold rounded-lg shadow-lg hover:bg-primaryLight transition-all flex items-center gap-2 hover:-translate-y-1"
-                >
-                  Explore Air Routes <ArrowRight size={18} />
-                </button>
-                <button 
-                   onClick={() => document.getElementById('lead-form')?.scrollIntoView({ behavior: 'smooth' })}
-                   className="px-8 py-4 bg-white text-primary border-2 border-primary/10 font-bold rounded-lg hover:border-primary hover:bg-blue-50 transition-all hover:-translate-y-1"
-                >
-                  Get a Freight Quote
-                </button>
-              </div>
+
             </div>
 
             {/* Image Content */}
